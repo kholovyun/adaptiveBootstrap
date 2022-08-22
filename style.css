@@ -1,0 +1,65 @@
+header{
+    background-color: rgb(33, 30, 57);
+}
+.navbar{
+    background-color: rgb(33, 30, 57);
+}
+.dropdown-menu{
+    background-color: rgba(33, 30, 57, 0.54);
+}
+.dropdown-item{
+    color: white;
+}
+.carousel{
+    min-height: 200px;
+}
+.carousel-item>img{
+    min-height: 200px;
+    min-width: 320px;  
+}
+.template{
+    display: flex;
+}
+.template>img{
+    max-width: 50%;
+}
+.call-to-action{
+    max-width: 25em;
+    max-height: 2.5em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    border-radius:7px;
+    border: 0.5px solid gray;
+    background-color: aquamarine;
+    margin-left: 2em;
+}
+.footer-text{
+    margin-top: 15px;
+    color: gray;
+}
+@media screen and (max-width:900px) {
+    .template{
+        display: block;
+    }
+    .template>img{
+       max-width: 100%;
+       margin-top: 1em;
+       margin-left: 0 !important;
+    }
+    .call-to-action{
+        margin-top: 2em;
+        max-height: 4em;
+        margin-left: 0;
+    }
+    .card{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+@media  screen and (max-width: 400px) {
+    main{
+       font-size: 12px;
+   }  
+}
